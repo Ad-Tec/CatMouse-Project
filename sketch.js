@@ -4,13 +4,13 @@ var garden
 
 function preload() {
     //load the images here
-    cat1 = loadImage("images/cat1.png");
-    cat2 = loadAnimation("images/cat2.png","images/cat3.png");
-    cat4 = loadImage("images/cat4.png");
-    garden = loadImage("images/garden.png");
-    mouse1 = loadImage ("images/mouse1.png");
-    mouse2 = loadAnimation ("images/mouse2.png","images/mouse3.png");
-    mouse4 = loadImage ("images/mouse4.png");
+    cat1 = loadImage("cat1.png");
+    cat2 = loadAnimation("cat2.png","cat3.png");
+    cat4 = loadImage("cat4.png");
+    garden = loadImage("garden.png");
+    mouse1 = loadImage ("mouse1.png");
+    mouse2 = loadAnimation ("mouse2.png","mouse3.png");
+    mouse4 = loadImage ("mouse4.png");
 }
 
 function setup(){
